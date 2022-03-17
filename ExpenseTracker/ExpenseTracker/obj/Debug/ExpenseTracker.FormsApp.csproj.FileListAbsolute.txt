@@ -1,0 +1,122 @@
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe.config
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.xml
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csprojAssemblyReference.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Properties.Resources.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.TransactionListItem.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDay.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDayItem.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.AddCategory.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Dashboard.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Event.AddEvent.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.AddFinancialAccount.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Report.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.AddTransaction.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.EditTransaction.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transfer.MakeTransfer.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.WeeklyView.resources
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.GenerateResource.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CoreCompileInputs.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CopyComplete
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.exe
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.exe.config
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Properties.Resources.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.TransactionListItem.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDay.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDayItem.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.AddCategory.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Dashboard.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Event.AddEvent.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.AddFinancialAccount.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Report.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.AddTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.EditTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transfer.MakeTransfer.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.Views.WeeklyView.resources
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.exe.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Properties.Resources.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.TransactionListItem.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDay.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDayItem.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.AddCategory.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Dashboard.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Event.AddEvent.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.AddFinancialAccount.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Report.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.AddTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.EditTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transfer.MakeTransfer.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.WeeklyView.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.ViewCategories.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.ViewFinancialAccounts.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Properties.Resources.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDay.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.CustomControls.WeeklyViewDayItem.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.AddCategory.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Category.ViewCategories.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Dashboard.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.AddFinancialAccount.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.FinancialAccount.ViewFinancialAccounts.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Report.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.AddTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.EditTransaction.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transaction.ViewTransactions.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Transfer.MakeTransfer.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.WeeklyView.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.exe
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.pdb

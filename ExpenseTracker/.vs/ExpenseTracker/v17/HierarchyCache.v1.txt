@@ -1,0 +1,233 @@
+﻿++Solution 'ExpenseTracker' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:ExpenseTracker.sln
+++ExpenseTracker.DataAccess
+i:{00000000-0000-0000-0000-000000000000}:ExpenseTracker.DataAccess
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++Properties
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\properties\
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\
+++References
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++DataObjects
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\dataobjects\
+++CategoryInfo.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\dataobjects\categoryinfo.cs
+++FinancialAccountInfo.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\dataobjects\financialaccountinfo.cs
+++TransactionInfo.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\dataobjects\transactioninfo.cs
+++Model
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\model\
+++App.config
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\app.config
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\app.config
+++DataManager.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\datamanager.cs
+++ExpenseTrackerDataSet.xsd
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackerdataset.xsd
+++ExpenseTrackerModel.edmx
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.edmx
+++ExpenseTrackerModel.edmx.sql
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.edmx.sql
+++packages.config
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\packages.config
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\packages.config
+++Settings.settings
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\properties\settings.settings
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\settings.settings
+++EntityFramework
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++EntityFramework.SqlServer
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++Microsoft.CSharp
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.ComponentModel.DataAnnotations
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Data
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Data.DataSetExtensions
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Drawing
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.IdentityModel
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+++System.Net.Http
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Numerics
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+++System.Runtime.Serialization
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+++System.Security
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+++System.Windows.Forms
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Xml
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Xml.Linq
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++CategoryModel.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\model\categorymodel.cs
+++ExpenseTrackerDataSet.Designer.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackerdataset.designer.cs
+++ExpenseTrackerDataSet.xsc
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackerdataset.xsc
+++ExpenseTrackerDataSet.xss
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackerdataset.xss
+++ExpenseTrackerModel.Context.tt
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.context.tt
+++ExpenseTrackerModel.Designer.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.designer.cs
+++ExpenseTrackerModel.edmx.diagram
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.edmx.diagram
+++ExpenseTrackerModel.tt
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.tt
+++Settings.Designer.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\properties\settings.designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\settings.designer.cs
+++ExpenseTrackerModel.Context.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.context.cs
+++Category.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\category.cs
+++CategoryType.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\categorytype.cs
+++Event.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\event.cs
+++ExpenseTrackerModel.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\expensetrackermodel.cs
+++FinancialAccount.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\financialaccount.cs
+++Payee.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\payee.cs
+++RecurFrequency.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\recurfrequency.cs
+++Transaction.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\transaction.cs
+++Transfer.cs
+i:{efa13c66-de4a-4b12-a2f8-a07f9bee036a}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker.dataaccess\transfer.cs
+++ExpenseTracker.FormsApp
+i:{00000000-0000-0000-0000-000000000000}:ExpenseTracker.FormsApp
+++Connected Services
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\connected services\
+++DataSources
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\datasources\
+++AssemblyInfo.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\assemblyinfo.cs
+++Resources.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\resources.resx
+++Helpers
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\helpers\
+++UserControls
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\
+++WeeklyViewDay.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewday.cs
+++WeeklyViewDayItem.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewdayitem.cs
+++Views
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\
+++Category
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\
+++AddCategory.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\addcategory.cs
+++ViewCategories.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\viewcategories.cs
+++FinancialAccount
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\
+++AddFinancialAccount.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\addfinancialaccount.cs
+++ViewFinancialAccounts.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\viewfinancialaccounts.cs
+++Transaction
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\
+++AddTransaction.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\addtransaction.cs
+++EditTransaction.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\edittransaction.cs
+++ViewTransactions.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\viewtransactions.cs
+++Transfer
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transfer\
+++Dashboard.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\dashboard.cs
+++Report.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\report.cs
+++WeeklyView.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\weeklyview.cs
+++Program.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\program.cs
+++Resources.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\properties\resources.designer.cs
+++System.Core
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++System.Deployment
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:
+++CredentialsDialog.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\helpers\credentialsdialog.cs
+++WeeklyViewDay.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewday.designer.cs
+++WeeklyViewDay.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewday.resx
+++WeeklyViewDayItem.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewdayitem.designer.cs
+++WeeklyViewDayItem.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\usercontrols\weeklyviewdayitem.resx
+++AddCategory.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\addcategory.designer.cs
+++AddCategory.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\addcategory.resx
+++ViewCategories.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\viewcategories.designer.cs
+++ViewCategories.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\category\viewcategories.resx
+++AddFinancialAccount.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\addfinancialaccount.designer.cs
+++AddFinancialAccount.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\addfinancialaccount.resx
+++ViewFinancialAccounts.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\viewfinancialaccounts.designer.cs
+++ViewFinancialAccounts.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\financialaccount\viewfinancialaccounts.resx
+++AddTransaction.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\addtransaction.designer.cs
+++AddTransaction.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\addtransaction.resx
+++EditTransaction.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\edittransaction.designer.cs
+++EditTransaction.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\edittransaction.resx
+++ViewTransactions.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\viewtransactions.designer.cs
+++ViewTransactions.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transaction\viewtransactions.resx
+++MakeTransfer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transfer\maketransfer.cs
+++Dashboard.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\dashboard.designer.cs
+++Dashboard.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\dashboard.resx
+++Report.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\report.designer.cs
+++Report.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\report.resx
+++WeeklyView.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\weeklyview.designer.cs
+++WeeklyView.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\weeklyview.resx
+++MakeTransfer.Designer.cs
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transfer\maketransfer.designer.cs
+++MakeTransfer.resx
+i:{8564130e-5bac-4d98-89dd-d61261a44a68}:c:\users\admin\documents\projects\uow\enterprise application development\expensetracker\expensetracker\views\transfer\maketransfer.resx

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ExpenseTrackerModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ExpenseTrackerModelContainer" annotation:LazyLoadingEnabled="true" cg:TypeAccess="Public">
+    <EntitySet Name="Transactions" EntityType="ExpenseTrackerModel.Transaction" />
+    <EntitySet Name="Categories" EntityType="ExpenseTrackerModel.Category" />
+    <EntitySet Name="Events" EntityType="ExpenseTrackerModel.Event" />
+    <EntitySet Name="Payees" EntityType="ExpenseTrackerModel.Payee" />
+    <EntitySet Name="FinancialAccounts" EntityType="ExpenseTrackerModel.FinancialAccount" />
+    <AssociationSet Name="CategoryTransaction" Association="ExpenseTrackerModel.CategoryTransaction">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FinancialAccountTransaction" Association="ExpenseTrackerModel.FinancialAccountTransaction">
+      <End Role="FinancialAccount" EntitySet="FinancialAccounts" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="PayeeTransaction" Association="ExpenseTrackerModel.PayeeTransaction">
+      <End Role="Payee" EntitySet="Payees" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="EventTransaction" Association="ExpenseTrackerModel.EventTransaction">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="Transaction" EntitySet="Transactions" />
+    </AssociationSet>
+    <EntitySet Name="Transfers" EntityType="ExpenseTrackerModel.Transfer" />
+    <AssociationSet Name="FinancialAccountTransfer" Association="ExpenseTrackerModel.FinancialAccountTransfer">
+      <End Role="FinancialAccount" EntitySet="FinancialAccounts" />
+      <End Role="Transfer" EntitySet="Transfers" />
+    </AssociationSet>
+    <AssociationSet Name="FinancialAccountTransfer1" Association="ExpenseTrackerModel.FinancialAccountTransfer1">
+      <End Role="FinancialAccount" EntitySet="FinancialAccounts" />
+      <End Role="Transfer" EntitySet="Transfers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Category" Relationship="ExpenseTrackerModel.CategoryTransaction" FromRole="Transaction" ToRole="Category" />
+    <NavigationProperty Name="FinancialAccount" Relationship="ExpenseTrackerModel.FinancialAccountTransaction" FromRole="Transaction" ToRole="FinancialAccount" />
+    <NavigationProperty Name="Payee" Relationship="ExpenseTrackerModel.PayeeTransaction" FromRole="Transaction" ToRole="Payee" />
+    <NavigationProperty Name="Event" Relationship="ExpenseTrackerModel.EventTransaction" FromRole="Transaction" ToRole="Event" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Note" Type="String" Nullable="false" />
+    <Property Name="DateTime" Type="DateTime" Nullable="false" />
+    <Property Name="SysGenerated" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Transactions" Relationship="ExpenseTrackerModel.CategoryTransaction" FromRole="Category" ToRole="Transaction" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Type" Type="ExpenseTrackerModel.CategoryType" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Transactions" Relationship="ExpenseTrackerModel.EventTransaction" FromRole="Event" ToRole="Transaction" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Location" Type="String" Nullable="true" />
+    <Property Name="DateTime" Type="DateTime" Nullable="false" />
+    <Property Name="RecurFrequency" Type="ExpenseTrackerModel.RecurFrequency" Nullable="true" />
+    <Property Name="Occurrences" Type="Int32" Nullable="true" />
+    <Property Name="UntillWhen" Type="DateTime" Nullable="true" />
+    <Property Name="LastProcessed" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Transactions" Relationship="ExpenseTrackerModel.PayeeTransaction" FromRole="Payee" ToRole="Transaction" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Business" Type="String" Nullable="true" />
+    <Property Name="ContactNo" Type="String" Nullable="true" />
+    <Property Name="Address" Type="String" Nullable="true" />
+    <Property Name="Note" Type="String" Nullable="true" />
+  </EntityType>
+  <EntityType Name="FinancialAccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Transactions" Relationship="ExpenseTrackerModel.FinancialAccountTransaction" FromRole="FinancialAccount" ToRole="Transaction" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Color" Type="String" Nullable="false" />
+    <NavigationProperty Name="SendingTransfers" Relationship="ExpenseTrackerModel.FinancialAccountTransfer" FromRole="FinancialAccount" ToRole="Transfer" />
+    <NavigationProperty Name="ReceivingTransfers" Relationship="ExpenseTrackerModel.FinancialAccountTransfer1" FromRole="FinancialAccount" ToRole="Transfer" />
+  </EntityType>
+  <Association Name="CategoryTransaction">
+    <End Type="ExpenseTrackerModel.Category" Role="Category" Multiplicity="1" />
+    <End Type="ExpenseTrackerModel.Transaction" Role="Transaction" Multiplicity="*" />
+  </Association>
+  <Association Name="FinancialAccountTransaction">
+    <End Type="ExpenseTrackerModel.FinancialAccount" Role="FinancialAccount" Multiplicity="1" />
+    <End Type="ExpenseTrackerModel.Transaction" Role="Transaction" Multiplicity="*" />
+  </Association>
+  <Association Name="PayeeTransaction">
+    <End Type="ExpenseTrackerModel.Payee" Role="Payee" Multiplicity="0..1" />
+    <End Type="ExpenseTrackerModel.Transaction" Role="Transaction" Multiplicity="*" />
+  </Association>
+  <Association Name="EventTransaction">
+    <End Type="ExpenseTrackerModel.Event" Role="Event" Multiplicity="0..1" />
+    <End Type="ExpenseTrackerModel.Transaction" Role="Transaction" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Transfer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <NavigationProperty Name="SourceAccount" Relationship="ExpenseTrackerModel.FinancialAccountTransfer" FromRole="Transfer" ToRole="FinancialAccount" />
+    <NavigationProperty Name="TargetAccount" Relationship="ExpenseTrackerModel.FinancialAccountTransfer1" FromRole="Transfer" ToRole="FinancialAccount" />
+    <Property Name="Note" Type="String" Nullable="true" />
+    <Property Name="DateTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <Association Name="FinancialAccountTransfer">
+    <End Type="ExpenseTrackerModel.FinancialAccount" Role="FinancialAccount" Multiplicity="1" />
+    <End Type="ExpenseTrackerModel.Transfer" Role="Transfer" Multiplicity="*" />
+  </Association>
+  <Association Name="FinancialAccountTransfer1">
+    <End Type="ExpenseTrackerModel.FinancialAccount" Role="FinancialAccount" Multiplicity="1" />
+    <End Type="ExpenseTrackerModel.Transfer" Role="Transfer" Multiplicity="*" />
+  </Association>
+  <EnumType Name="CategoryType">
+    <Member Name="Initial" Value="0" />
+    <Member Name="Income" Value="1" />
+    <Member Name="Expense" Value="2" />
+  </EnumType>
+  <EnumType Name="RecurFrequency">
+    <Member Name="Daily" Value="1" />
+    <Member Name="Weekly" Value="2" />
+    <Member Name="Monthly" Value="3" />
+    <Member Name="Yearly" Value="4" />
+  </EnumType>
+</Schema>

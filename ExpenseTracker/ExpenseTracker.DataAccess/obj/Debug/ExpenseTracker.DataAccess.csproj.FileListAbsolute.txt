@@ -1,0 +1,54 @@
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\obj\Debug\ExpenseTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\obj\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.Database\obj\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csprojAssemblyReference.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CopyComplete
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll.config
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\ExpenseTracker.DataAccess.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.csproj.CopyComplete
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.dll
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\obj\Debug\ExpenseTracker.DataAccess.pdb

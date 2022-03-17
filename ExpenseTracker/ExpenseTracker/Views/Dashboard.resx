@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsmiCategoriesAddNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="tsmiCategoriesAddNew.Text" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="tsmiCategoriesView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="tsmiCategoriesView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="tsmiCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 24</value>
+  </data>
+  <data name="tsmiCategories.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="tsmiFAccountsAddNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="tsmiFAccountsAddNew.Text" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="tsmiFAccountsView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="tsmiFAccountsView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="tsmiFinancialAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="tsmiFinancialAccounts.Text" xml:space="preserve">
+    <value>Financial Accounts</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblProductName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblProductName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calisto MT, 20.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblProductName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 54</value>
+  </data>
+  <data name="lblProductName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 39</value>
+  </data>
+  <data name="lblProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblProductName.Text" xml:space="preserve">
+    <value>label_prod_name</value>
+  </data>
+  <data name="&gt;&gt;lblProductName.Name" xml:space="preserve">
+    <value>lblProductName</value>
+  </data>
+  <data name="&gt;&gt;lblProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProductName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblProductName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnNewRecord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNewRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 23</value>
+  </data>
+  <data name="btnNewRecord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnNewRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 28</value>
+  </data>
+  <data name="btnNewRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnNewRecord.Text" xml:space="preserve">
+    <value>New Record</value>
+  </data>
+  <data name="&gt;&gt;btnNewRecord.Name" xml:space="preserve">
+    <value>btnNewRecord</value>
+  </data>
+  <data name="&gt;&gt;btnNewRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewRecord.Parent" xml:space="preserve">
+    <value>gboxAddTransaction</value>
+  </data>
+  <data name="&gt;&gt;btnNewRecord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTransferFunds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTransferFunds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 59</value>
+  </data>
+  <data name="btnTransferFunds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnTransferFunds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 28</value>
+  </data>
+  <data name="btnTransferFunds.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnTransferFunds.Text" xml:space="preserve">
+    <value>View All</value>
+  </data>
+  <data name="&gt;&gt;btnTransferFunds.Name" xml:space="preserve">
+    <value>btnTransferFunds</value>
+  </data>
+  <data name="&gt;&gt;btnTransferFunds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTransferFunds.Parent" xml:space="preserve">
+    <value>gboxAddTransaction</value>
+  </data>
+  <data name="&gt;&gt;btnTransferFunds.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 70</value>
+  </data>
+  <data name="lblBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lblBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblBalance.Name" xml:space="preserve">
+    <value>lblBalance</value>
+  </data>
+  <data name="&gt;&gt;lblBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBalance.Parent" xml:space="preserve">
+    <value>pnlRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;lblBalance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnShowTransactions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnShowTransactions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 53</value>
+  </data>
+  <data name="btnShowTransactions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnShowTransactions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 28</value>
+  </data>
+  <data name="btnShowTransactions.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnShowTransactions.Text" xml:space="preserve">
+    <value>Recent Transactions</value>
+  </data>
+  <data name="&gt;&gt;btnShowTransactions.Name" xml:space="preserve">
+    <value>btnShowTransactions</value>
+  </data>
+  <data name="&gt;&gt;btnShowTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnShowTransactions.Parent" xml:space="preserve">
+    <value>gboxFinancialAccount</value>
+  </data>
+  <data name="&gt;&gt;btnShowTransactions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnReportView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 18</value>
+  </data>
+  <data name="btnReportView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnReportView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 28</value>
+  </data>
+  <data name="btnReportView.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnReportView.Text" xml:space="preserve">
+    <value>Report View</value>
+  </data>
+  <data name="&gt;&gt;btnReportView.Name" xml:space="preserve">
+    <value>btnReportView</value>
+  </data>
+  <data name="&gt;&gt;btnReportView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReportView.Parent" xml:space="preserve">
+    <value>gboxFinancialAccount</value>
+  </data>
+  <data name="&gt;&gt;btnReportView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnWeeklyView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 53</value>
+  </data>
+  <data name="btnWeeklyView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnWeeklyView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 28</value>
+  </data>
+  <data name="btnWeeklyView.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnWeeklyView.Text" xml:space="preserve">
+    <value>Weekly View</value>
+  </data>
+  <data name="&gt;&gt;btnWeeklyView.Name" xml:space="preserve">
+    <value>btnWeeklyView</value>
+  </data>
+  <data name="&gt;&gt;btnWeeklyView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWeeklyView.Parent" xml:space="preserve">
+    <value>gboxFinancialAccount</value>
+  </data>
+  <data name="&gt;&gt;btnWeeklyView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboxSelectedAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 21</value>
+  </data>
+  <data name="cboxSelectedAccount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cboxSelectedAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="cboxSelectedAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboxSelectedAccount.Name" xml:space="preserve">
+    <value>cboxSelectedAccount</value>
+  </data>
+  <data name="&gt;&gt;cboxSelectedAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxSelectedAccount.Parent" xml:space="preserve">
+    <value>gboxFinancialAccount</value>
+  </data>
+  <data name="&gt;&gt;cboxSelectedAccount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxFinancialAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 42</value>
+  </data>
+  <data name="gboxFinancialAccount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxFinancialAccount.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxFinancialAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>469, 96</value>
+  </data>
+  <data name="gboxFinancialAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gboxFinancialAccount.Text" xml:space="preserve">
+    <value>Financial Account</value>
+  </data>
+  <data name="&gt;&gt;gboxFinancialAccount.Name" xml:space="preserve">
+    <value>gboxFinancialAccount</value>
+  </data>
+  <data name="&gt;&gt;gboxFinancialAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxFinancialAccount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gboxFinancialAccount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxAddTransaction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 42</value>
+  </data>
+  <data name="gboxAddTransaction.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxAddTransaction.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxAddTransaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 96</value>
+  </data>
+  <data name="gboxAddTransaction.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gboxAddTransaction.Text" xml:space="preserve">
+    <value>Add Transaction</value>
+  </data>
+  <data name="&gt;&gt;gboxAddTransaction.Name" xml:space="preserve">
+    <value>gboxAddTransaction</value>
+  </data>
+  <data name="&gt;&gt;gboxAddTransaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxAddTransaction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gboxAddTransaction.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlRecentTransactions.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgvTransactions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dgvTransactions.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvTransactions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>993, 492</value>
+  </data>
+  <data name="dgvTransactions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvTransactions.Name" xml:space="preserve">
+    <value>dgvTransactions</value>
+  </data>
+  <data name="&gt;&gt;dgvTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvTransactions.Parent" xml:space="preserve">
+    <value>pnlRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;dgvTransactions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNoRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNoRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 20</value>
+  </data>
+  <data name="lblNoRecords.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblNoRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>989, 33</value>
+  </data>
+  <data name="lblNoRecords.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>no_records</value>
+  </data>
+  <data name="lblNoRecords.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblNoRecords.Name" xml:space="preserve">
+    <value>lblNoRecords</value>
+  </data>
+  <data name="&gt;&gt;lblNoRecords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoRecords.Parent" xml:space="preserve">
+    <value>pnlRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;lblNoRecords.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlRecentTransactions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 23</value>
+  </data>
+  <data name="pnlRecentTransactions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pnlRecentTransactions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>997, 498</value>
+  </data>
+  <data name="pnlRecentTransactions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlRecentTransactions.Name" xml:space="preserve">
+    <value>pnlRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;pnlRecentTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlRecentTransactions.Parent" xml:space="preserve">
+    <value>gboxRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;pnlRecentTransactions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxRecentTransactions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 146</value>
+  </data>
+  <data name="gboxRecentTransactions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxRecentTransactions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxRecentTransactions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1013, 529</value>
+  </data>
+  <data name="gboxRecentTransactions.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gboxRecentTransactions.Text" xml:space="preserve">
+    <value>Recent Transactions</value>
+  </data>
+  <data name="&gt;&gt;gboxRecentTransactions.Name" xml:space="preserve">
+    <value>gboxRecentTransactions</value>
+  </data>
+  <data name="&gt;&gt;gboxRecentTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxRecentTransactions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gboxRecentTransactions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 101</value>
+  </data>
+  <data name="lblVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>label_version</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 684</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategories.Name" xml:space="preserve">
+    <value>tsmiCategories</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategoriesAddNew.Name" xml:space="preserve">
+    <value>tsmiCategoriesAddNew</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategoriesAddNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategoriesView.Name" xml:space="preserve">
+    <value>tsmiCategoriesView</value>
+  </data>
+  <data name="&gt;&gt;tsmiCategoriesView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFinancialAccounts.Name" xml:space="preserve">
+    <value>tsmiFinancialAccounts</value>
+  </data>
+  <data name="&gt;&gt;tsmiFinancialAccounts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFAccountsAddNew.Name" xml:space="preserve">
+    <value>tsmiFAccountsAddNew</value>
+  </data>
+  <data name="&gt;&gt;tsmiFAccountsAddNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiFAccountsView.Name" xml:space="preserve">
+    <value>tsmiFAccountsView</value>
+  </data>
+  <data name="&gt;&gt;tsmiFAccountsView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

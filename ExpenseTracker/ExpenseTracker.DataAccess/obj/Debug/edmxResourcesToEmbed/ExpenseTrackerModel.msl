@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExpenseTrackerModelStoreContainer" CdmEntityContainer="ExpenseTrackerModelContainer">
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Transaction)">
+        <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="SysGenerated" ColumnName="SysGenerated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Category)">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Event)">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="RecurFrequency" ColumnName="RecurFrequency" />
+          <ScalarProperty Name="Occurrences" ColumnName="Occurrences" />
+          <ScalarProperty Name="UntillWhen" ColumnName="UntillWhen" />
+          <ScalarProperty Name="LastProcessed" ColumnName="LastProcessed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payees">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Payee)">
+        <MappingFragment StoreEntitySet="Payees">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Business" ColumnName="Business" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FinancialAccounts">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.FinancialAccount)">
+        <MappingFragment StoreEntitySet="FinancialAccounts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transfers">
+      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Transfer)">
+        <MappingFragment StoreEntitySet="Transfers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CategoryTransaction" TypeName="ExpenseTrackerModel.CategoryTransaction" StoreEntitySet="Transactions">
+      <EndProperty Name="Category">
+        <ScalarProperty Name="Id" ColumnName="Category_Id" />
+      </EndProperty>
+      <EndProperty Name="Transaction">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FinancialAccountTransaction" TypeName="ExpenseTrackerModel.FinancialAccountTransaction" StoreEntitySet="Transactions">
+      <EndProperty Name="FinancialAccount">
+        <ScalarProperty Name="Id" ColumnName="FinancialAccount_Id" />
+      </EndProperty>
+      <EndProperty Name="Transaction">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PayeeTransaction" TypeName="ExpenseTrackerModel.PayeeTransaction" StoreEntitySet="Transactions">
+      <EndProperty Name="Payee">
+        <ScalarProperty Name="Id" ColumnName="Payee_Id" />
+      </EndProperty>
+      <EndProperty Name="Transaction">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Payee_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EventTransaction" TypeName="ExpenseTrackerModel.EventTransaction" StoreEntitySet="Transactions">
+      <EndProperty Name="Event">
+        <ScalarProperty Name="Id" ColumnName="Event_Id" />
+      </EndProperty>
+      <EndProperty Name="Transaction">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition ColumnName="Event_Id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FinancialAccountTransfer" TypeName="ExpenseTrackerModel.FinancialAccountTransfer" StoreEntitySet="Transfers">
+      <EndProperty Name="FinancialAccount">
+        <ScalarProperty Name="Id" ColumnName="SourceAccount_Id" />
+      </EndProperty>
+      <EndProperty Name="Transfer">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FinancialAccountTransfer1" TypeName="ExpenseTrackerModel.FinancialAccountTransfer1" StoreEntitySet="Transfers">
+      <EndProperty Name="FinancialAccount">
+        <ScalarProperty Name="Id" ColumnName="TargetAccount_Id" />
+      </EndProperty>
+      <EndProperty Name="Transfer">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

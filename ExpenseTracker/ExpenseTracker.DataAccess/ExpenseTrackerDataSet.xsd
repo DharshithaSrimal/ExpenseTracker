@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExpenseTrackerDataSet" targetNamespace="http://tempuri.org/ExpenseTrackerDataSet.xsd" xmlns:mstns="http://tempuri.org/ExpenseTrackerDataSet.xsd" xmlns="http://tempuri.org/ExpenseTrackerDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExpenseTrackerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExpenseTrackerDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ExpenseTrackerDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Category" msprop:Generator_RowEvHandlerName="CategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="CategoryRowDeleted" msprop:Generator_RowDeletingName="CategoryRowDeleting" msprop:Generator_RowEvArgName="CategoryRowChangeEvent" msprop:Generator_TablePropName="Category" msprop:Generator_RowChangedName="CategoryRowChanged" msprop:Generator_UserTableName="Category" msprop:Generator_RowChangingName="CategoryRowChanging" msprop:Generator_RowClassName="CategoryRow" msprop:Generator_TableClassName="CategoryDataTable" msprop:Generator_TableVarName="tableCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" type="xs:string" />
+              <xs:element name="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transaction" msprop:Generator_RowEvHandlerName="TransactionRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionRowDeleted" msprop:Generator_RowDeletingName="TransactionRowDeleting" msprop:Generator_RowEvArgName="TransactionRowChangeEvent" msprop:Generator_TablePropName="Transaction" msprop:Generator_RowChangedName="TransactionRowChanged" msprop:Generator_UserTableName="Transaction" msprop:Generator_RowChangingName="TransactionRowChanging" msprop:Generator_RowClassName="TransactionRow" msprop:Generator_TableClassName="TransactionDataTable" msprop:Generator_TableVarName="tableTransaction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" type="xs:decimal" />
+              <xs:element name="Note" msprop:Generator_ColumnPropNameInTable="NoteColumn" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_UserColumnName="Note" msprop:Generator_ColumnVarNameInTable="columnNote" type="xs:string" />
+              <xs:element name="DateTime" msprop:Generator_ColumnPropNameInTable="DateTimeColumn" msprop:Generator_ColumnPropNameInRow="DateTime" msprop:Generator_UserColumnName="DateTime" msprop:Generator_ColumnVarNameInTable="columnDateTime" type="xs:dateTime" />
+              <xs:element name="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" type="xs:string" />
+              <xs:element name="FinancialAccount_Id" msprop:Generator_ColumnPropNameInTable="FinancialAccount_IdColumn" msprop:Generator_ColumnPropNameInRow="FinancialAccount_Id" msprop:Generator_UserColumnName="FinancialAccount_Id" msprop:Generator_ColumnVarNameInTable="columnFinancialAccount_Id" type="xs:int" />
+              <xs:element name="Category_Id" msprop:Generator_ColumnPropNameInTable="Category_IdColumn" msprop:Generator_ColumnPropNameInRow="Category_Id" msprop:Generator_UserColumnName="Category_Id" msprop:Generator_ColumnVarNameInTable="columnCategory_Id" type="xs:int" />
+              <xs:element name="IsRecurring" msprop:Generator_ColumnPropNameInTable="IsRecurringColumn" msprop:Generator_ColumnPropNameInRow="IsRecurring" msprop:Generator_UserColumnName="IsRecurring" msprop:Generator_ColumnVarNameInTable="columnIsRecurring" type="xs:boolean" minOccurs="0" />
+              <xs:element name="RecurringUnitl" msprop:Generator_UserColumnName="RecurringUnitl" msprop:Generator_ColumnPropNameInTable="RecurringUnitlColumn" msprop:Generator_ColumnPropNameInRow="RecurringUnitl" msprop:Generator_ColumnVarNameInTable="columnRecurringUnitl" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FinancialAccount" msprop:Generator_RowEvHandlerName="FinancialAccountRowChangeEventHandler" msprop:Generator_RowDeletedName="FinancialAccountRowDeleted" msprop:Generator_RowDeletingName="FinancialAccountRowDeleting" msprop:Generator_RowEvArgName="FinancialAccountRowChangeEvent" msprop:Generator_TablePropName="FinancialAccount" msprop:Generator_RowChangedName="FinancialAccountRowChanged" msprop:Generator_UserTableName="FinancialAccount" msprop:Generator_RowChangingName="FinancialAccountRowChanging" msprop:Generator_RowClassName="FinancialAccountRow" msprop:Generator_TableClassName="FinancialAccountDataTable" msprop:Generator_TableVarName="tableFinancialAccount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" type="xs:string" />
+              <xs:element name="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_UserColumnName="Color" msprop:Generator_ColumnVarNameInTable="columnColor" type="xs:string" />
+              <xs:element name="Balance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_UserColumnName="Balance" type="xs:decimal" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transfer" msprop:Generator_RowEvHandlerName="TransferRowChangeEventHandler" msprop:Generator_RowDeletedName="TransferRowDeleted" msprop:Generator_RowDeletingName="TransferRowDeleting" msprop:Generator_RowEvArgName="TransferRowChangeEvent" msprop:Generator_TablePropName="Transfer" msprop:Generator_RowChangedName="TransferRowChanged" msprop:Generator_UserTableName="Transfer" msprop:Generator_RowChangingName="TransferRowChanging" msprop:Generator_RowClassName="TransferRow" msprop:Generator_TableClassName="TransferDataTable" msprop:Generator_TableVarName="tableTransfer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:int" />
+              <xs:element name="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" type="xs:decimal" />
+              <xs:element name="Note" msprop:Generator_ColumnPropNameInTable="NoteColumn" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_UserColumnName="Note" msprop:Generator_ColumnVarNameInTable="columnNote" type="xs:string" minOccurs="0" />
+              <xs:element name="DateTime" msprop:Generator_ColumnPropNameInTable="DateTimeColumn" msprop:Generator_ColumnPropNameInRow="DateTime" msprop:Generator_UserColumnName="DateTime" msprop:Generator_ColumnVarNameInTable="columnDateTime" type="xs:dateTime" />
+              <xs:element name="SourceAccount_Id" msprop:Generator_ColumnPropNameInTable="SourceAccount_IdColumn" msprop:Generator_ColumnPropNameInRow="SourceAccount_Id" msprop:Generator_UserColumnName="SourceAccount_Id" msprop:Generator_ColumnVarNameInTable="columnSourceAccount_Id" type="xs:int" />
+              <xs:element name="TargetAccount_Id" msprop:Generator_ColumnPropNameInTable="TargetAccount_IdColumn" msprop:Generator_ColumnPropNameInRow="TargetAccount_Id" msprop:Generator_UserColumnName="TargetAccount_Id" msprop:Generator_ColumnVarNameInTable="columnTargetAccount_Id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Category" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Transaction_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Transaction" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="FinancialAccount_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:FinancialAccount" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Transfer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Transfer" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:keyref name="FK_FinancialAccount_Transfer_Target" refer="FinancialAccount_Constraint1" msprop:rel_Generator_UserParentTable="FinancialAccount" msprop:rel_Generator_UserChildTable="Transfer" msprop:rel_Generator_RelationVarName="relationFK_FinancialAccount_Transfer_Target" msprop:rel_Generator_ChildPropName="GetTransferRowsByFK_FinancialAccount_Transfer_Target" msprop:rel_Generator_ParentPropName="FinancialAccountRowByFK_FinancialAccount_Transfer_Target" msprop:rel_Generator_UserRelationName="FK_FinancialAccount_Transfer_Target" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Transfer" />
+      <xs:field xpath="mstns:TargetAccount_Id" />
+    </xs:keyref>
+    <xs:keyref name="FK_FinancialAccount_Transfer_Source" refer="FinancialAccount_Constraint1" msprop:rel_Generator_UserParentTable="FinancialAccount" msprop:rel_Generator_UserChildTable="Transfer" msprop:rel_Generator_RelationVarName="relationFK_FinancialAccount_Transfer_Source" msprop:rel_Generator_ChildPropName="GetTransferRowsByFK_FinancialAccount_Transfer_Source" msprop:rel_Generator_ParentPropName="FinancialAccountRowByFK_FinancialAccount_Transfer_Source" msprop:rel_Generator_UserRelationName="FK_FinancialAccount_Transfer_Source" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Transfer" />
+      <xs:field xpath="mstns:SourceAccount_Id" />
+    </xs:keyref>
+    <xs:keyref name="FK_FinancialAccount_Transaction" refer="FinancialAccount_Constraint1" msprop:rel_Generator_UserParentTable="FinancialAccount" msprop:rel_Generator_UserChildTable="Transaction" msprop:rel_Generator_RelationVarName="relationFK_FinancialAccount_Transaction" msprop:rel_Generator_ChildPropName="GetTransactionRows" msprop:rel_Generator_ParentPropName="FinancialAccountRow" msprop:rel_Generator_UserRelationName="FK_FinancialAccount_Transaction" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Transaction" />
+      <xs:field xpath="mstns:FinancialAccount_Id" />
+    </xs:keyref>
+    <xs:keyref name="FK_Category_Transaction" refer="Constraint1" msprop:rel_Generator_UserParentTable="Category" msprop:rel_Generator_UserChildTable="Transaction" msprop:rel_Generator_RelationVarName="relationFK_Category_Transaction" msprop:rel_Generator_ChildPropName="GetTransactionRows" msprop:rel_Generator_UserRelationName="FK_Category_Transaction" msprop:rel_Generator_ParentPropName="CategoryRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Transaction" />
+      <xs:field xpath="mstns:Category_Id" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
