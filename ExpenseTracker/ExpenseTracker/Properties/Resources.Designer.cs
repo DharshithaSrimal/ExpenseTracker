@@ -394,7 +394,7 @@ namespace ExpenseTracker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You made an expense more than your account balance.
+        ///   Looks up a localized string similar to You can&apos;t make expenses more than your account balance.
         /// </summary>
         internal static string TXN_ERR {
             get {

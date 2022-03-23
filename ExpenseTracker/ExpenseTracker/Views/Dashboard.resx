@@ -157,6 +157,24 @@
   <data name="tsmiFinancialAccounts.Text" xml:space="preserve">
     <value>Financial Accounts</value>
   </data>
+  <data name="dailyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="dailyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Category Based</value>
+  </data>
+  <data name="statiticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="statiticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="predctionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 24</value>
+  </data>
+  <data name="predctionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Predctions</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -667,6 +685,24 @@
     <value>tsmiFAccountsView</value>
   </data>
   <data name="&gt;&gt;tsmiFAccountsView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;predctionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>predctionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;predctionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dailyToolStripMenuItem.Name" xml:space="preserve">
+    <value>dailyToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dailyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statiticsToolStripMenuItem.Name" xml:space="preserve">
+    <value>statiticsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;statiticsToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

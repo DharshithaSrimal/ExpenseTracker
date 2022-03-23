@@ -7,11 +7,23 @@
 <DiagramLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ex:showrelationlabel="False" ViewPortX="74" ViewPortY="29" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:Category" ZOrder="8" X="374" Y="125" Height="86" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="82" />
-    <Shape ID="DesignTable:Transaction" ZOrder="7" X="641" Y="234" Height="217" Width="182" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="213" />
+    <Shape ID="DesignTable:Transaction" ZOrder="7" X="641" Y="234" Height="195" Width="211" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="191" />
     <Shape ID="DesignTable:FinancialAccount" ZOrder="6" X="958" Y="295" Height="103" Width="165" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="99" />
     <Shape ID="DesignTable:Transfer" ZOrder="3" X="961" Y="48" Height="143" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="139" />
   </Shapes>
   <Connectors>
+    <Connector ID="DesignRelation:FK_FinancialAccount_Transaction" ZOrder="5" LineWidth="11">
+      <RoutePoints>
+        <Point>
+          <X>958</X>
+          <Y>338</Y>
+        </Point>
+        <Point>
+          <X>852</X>
+          <Y>338</Y>
+        </Point>
+      </RoutePoints>
+    </Connector>
     <Connector ID="DesignRelation:FK_Category_Transaction" ZOrder="4" LineWidth="11">
       <RoutePoints>
         <Point>
@@ -28,15 +40,15 @@
         </Point>
       </RoutePoints>
     </Connector>
-    <Connector ID="DesignRelation:FK_FinancialAccount_Transaction" ZOrder="5" LineWidth="11">
+    <Connector ID="DesignRelation:FK_FinancialAccount_Transfer_Target" ZOrder="1" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>958</X>
-          <Y>338</Y>
+          <X>1028</X>
+          <Y>295</Y>
         </Point>
         <Point>
-          <X>823</X>
-          <Y>338</Y>
+          <X>1028</X>
+          <Y>191</Y>
         </Point>
       </RoutePoints>
     </Connector>
@@ -48,18 +60,6 @@
         </Point>
         <Point>
           <X>1036</X>
-          <Y>191</Y>
-        </Point>
-      </RoutePoints>
-    </Connector>
-    <Connector ID="DesignRelation:FK_FinancialAccount_Transfer_Target" ZOrder="1" LineWidth="11">
-      <RoutePoints>
-        <Point>
-          <X>1028</X>
-          <Y>295</Y>
-        </Point>
-        <Point>
-          <X>1028</X>
           <Y>191</Y>
         </Point>
       </RoutePoints>

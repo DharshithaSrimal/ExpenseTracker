@@ -2,6 +2,7 @@
 using ExpenseTracker.DataAccess.DataObjects;
 using ExpenseTracker.Views.Category;
 using ExpenseTracker.Views.FinancialAccount;
+using ExpenseTracker.Views.Predections;
 using ExpenseTracker.Views.Transaction;
 using System;
 using System.Collections.Generic;
@@ -31,12 +32,14 @@ namespace ExpenseTracker.Views
         {
             Report report = new Report(dbInfo);
             report.ShowDialog();
+            report.Dispose();
         }
 
         private void btnWeeklyView_Click(object sender, EventArgs e)
         {
             WeeklyView weeklyView = new WeeklyView(dbInfo);
             weeklyView.ShowDialog();
+            weeklyView.Dispose();
         }
 
         private void btnNewRecord_Click(object sender, EventArgs e)
@@ -50,25 +53,28 @@ namespace ExpenseTracker.Views
                 addTransaction.ShowDialog();
                 transactionData = addTransaction.TransactionData;
                 addTransaction.Dispose();               
-                recurringCount = transactionData.recurringTrs;
-
-                for (int count = 0; count < recurringCount; count++)
+                if(transactionData != null)
                 {
-                    ExpenseTrackerDataSet.TransactionRow rowTransaction = this.dbInfo.Transaction.NewTransactionRow();
-                    rowTransaction.Id = dbInfo.Transaction.Rows.Count + 1;
-                    rowTransaction.Amount = transactionData.Amount;
-                    rowTransaction.Note = transactionData.Note;
-                    rowTransaction.Category_Id = (int)transactionData.CategoryId;
-                    rowTransaction.FinancialAccount_Id = transactionData.FinancialAccountId;
-                    rowTransaction.DateTime = transactionData.DateTime;
-                    rowTransaction.Type = transactionData.Type;
-                    rowTransaction.IsRecurring = transactionData.IsRecurring;
-                    rowTransaction.RecurringUnitl = transactionData.RecurringUntil;
-                    rowTransaction.DateTime = transactionData.DateTime.AddDays(count);
-                    
-                    this.dbInfo.Transaction.AddTransactionRow(rowTransaction);
-                    this.dbInfo.Transaction.AcceptChanges();
+                    recurringCount = transactionData.recurringTrs;
+                    for (int count = 0; count < recurringCount; count++)
+                    {
+                        ExpenseTrackerDataSet.TransactionRow rowTransaction = this.dbInfo.Transaction.NewTransactionRow();
+                        rowTransaction.Id = dbInfo.Transaction.Rows.Count + 1;
+                        rowTransaction.Amount = transactionData.Amount;
+                        rowTransaction.Note = transactionData.Note;
+                        rowTransaction.Category_Id = (int)transactionData.CategoryId;
+                        rowTransaction.FinancialAccount_Id = transactionData.FinancialAccountId;
+                        rowTransaction.DateTime = transactionData.DateTime;
+                        rowTransaction.Type = transactionData.Type;
+                        rowTransaction.IsRecurring = transactionData.IsRecurring;
+                        rowTransaction.RecurringUnitl = transactionData.RecurringUntil;
+                        rowTransaction.DateTime = transactionData.DateTime.AddDays(count);
+
+                        this.dbInfo.Transaction.AddTransactionRow(rowTransaction);
+                        this.dbInfo.Transaction.AcceptChanges();
+                    }
                 }
+                
             }
             else if (catCount == 0)
             {
@@ -112,11 +118,14 @@ namespace ExpenseTracker.Views
             addCategory.ShowDialog();
             categoryData = addCategory.CategoryData;
             addCategory.Dispose();
-            ExpenseTrackerDataSet.CategoryRow rowCategory = this.dbInfo.Category.NewCategoryRow();
-            rowCategory.Name = categoryData.CategoryName;
-            rowCategory.Id = dbInfo.Category.Rows.Count + 1;
-            rowCategory.Type = categoryData.CategoryType;
-            this.dbInfo.Category.AddCategoryRow(rowCategory);
+            if(categoryData != null)
+            {
+                ExpenseTrackerDataSet.CategoryRow rowCategory = this.dbInfo.Category.NewCategoryRow();
+                rowCategory.Name = categoryData.CategoryName;
+                rowCategory.Id = dbInfo.Category.Rows.Count + 1;
+                rowCategory.Type = categoryData.CategoryType;
+                this.dbInfo.Category.AddCategoryRow(rowCategory);
+            }
         }
 
         private void viewCategoriesClick(object sender, EventArgs e)
@@ -124,6 +133,7 @@ namespace ExpenseTracker.Views
             ViewCategories viewCategories = new ViewCategories();
             viewCategories.CategoryList = this.dbInfo.Category;
             viewCategories.ShowDialog();
+            viewCategories.Dispose();
         }
         private void viewFinancialAccountsClick(object sender, EventArgs e)
         {
@@ -138,13 +148,15 @@ namespace ExpenseTracker.Views
             addNewView.ShowDialog();
             financialAccountData = addNewView.FinancialAccData;
             addNewView.Dispose();
-
-            ExpenseTrackerDataSet.FinancialAccountRow row = this.dbInfo.FinancialAccount.NewFinancialAccountRow();
-            row.Name = financialAccountData.FinancialAccName;
-            row.Id = dbInfo.FinancialAccount.Rows.Count + 1;
-            row.Color = financialAccountData.FinancialAccColor;
-            row.Balance = financialAccountData.Balance;
-            this.dbInfo.FinancialAccount.AddFinancialAccountRow(row);
+            if(financialAccountData != null)
+            {
+                ExpenseTrackerDataSet.FinancialAccountRow row = this.dbInfo.FinancialAccount.NewFinancialAccountRow();
+                row.Name = financialAccountData.FinancialAccName;
+                row.Id = dbInfo.FinancialAccount.Rows.Count + 1;
+                row.Color = financialAccountData.FinancialAccColor;
+                row.Balance = financialAccountData.Balance;
+                this.dbInfo.FinancialAccount.AddFinancialAccountRow(row);
+            }
         }
 
         private void dashboardLoad(object sender, EventArgs e)
@@ -210,7 +222,7 @@ namespace ExpenseTracker.Views
             ViewTransactions viewTransactions = new ViewTransactions(dbInfo);
             viewTransactions.TransactionList = this.dbInfo.Transaction;
             viewTransactions.ShowDialog();
-
+            viewTransactions.Dispose();
         }
 
         public void initialDataSetup() 
@@ -281,6 +293,20 @@ namespace ExpenseTracker.Views
             rowT4.IsRecurring = false;
             rowT4.RecurringUnitl = DateTime.Now.AddDays(-2);
             this.dbInfo.Transaction.AddTransactionRow(rowT4);
+        }
+
+        private void dailyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryBasedPredection predectionView = new CategoryBasedPredection(dbInfo);
+            predectionView.ShowDialog();
+            predectionView.Dispose();
+        }
+
+        private void statiticsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StatisticsView statView = new StatisticsView(dbInfo);
+            statView.ShowDialog();
+            statView.Dispose();
         }
     }
 }

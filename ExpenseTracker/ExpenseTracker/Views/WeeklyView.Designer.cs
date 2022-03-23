@@ -32,11 +32,15 @@
             this.gboxWeekOptions = new System.Windows.Forms.GroupBox();
             this.dtpWeekEndingDate = new System.Windows.Forms.DateTimePicker();
             this.lblSelectDate = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cboxType = new System.Windows.Forms.ComboBox();
             this.gboxWeekOptions.SuspendLayout();
             this.SuspendLayout();
             // 
             // gboxWeekOptions
             // 
+            this.gboxWeekOptions.Controls.Add(this.cboxType);
+            this.gboxWeekOptions.Controls.Add(this.label1);
             this.gboxWeekOptions.Controls.Add(this.dtpWeekEndingDate);
             this.gboxWeekOptions.Controls.Add(this.lblSelectDate);
             resources.ApplyResources(this.gboxWeekOptions, "gboxWeekOptions");
@@ -55,6 +59,21 @@
             resources.ApplyResources(this.lblSelectDate, "lblSelectDate");
             this.lblSelectDate.Name = "lblSelectDate";
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // cboxType
+            // 
+            this.cboxType.FormattingEnabled = true;
+            this.cboxType.Items.AddRange(new object[] {
+            resources.GetString("cboxType.Items"),
+            resources.GetString("cboxType.Items1")});
+            resources.ApplyResources(this.cboxType, "cboxType");
+            this.cboxType.Name = "cboxType";
+            this.cboxType.SelectedIndexChanged += new System.EventHandler(this.typeChanged);
+            // 
             // WeeklyView
             // 
             resources.ApplyResources(this, "$this");
@@ -63,6 +82,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "WeeklyView";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.weeklyViewOnLoad);
             this.gboxWeekOptions.ResumeLayout(false);
             this.gboxWeekOptions.PerformLayout();
             this.ResumeLayout(false);
@@ -74,5 +94,7 @@
         private System.Windows.Forms.GroupBox gboxWeekOptions;
         private System.Windows.Forms.Label lblSelectDate;
         private System.Windows.Forms.DateTimePicker dtpWeekEndingDate;
+        private System.Windows.Forms.ComboBox cboxType;
+        private System.Windows.Forms.Label label1;
     }
 }

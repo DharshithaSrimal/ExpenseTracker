@@ -87,12 +87,6 @@ namespace ExpenseTracker.Views.Transaction
                 {
                     TransactionData.Type = Properties.Resources.EXPENSE_TYPE;
                     TransactionData.AccountBalance = accBalance - (TransactionData.Amount* TransactionData.recurringTrs);
-                    if (TransactionData.AccountBalance < 0)
-                    {
-                        MessageBox.Show(Properties.Resources.TXN_ERR,
-                        Properties.Resources.TNX_NA,
-                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    }
                 }
                 else if (rbtnIncome.Checked)
                 {
@@ -109,9 +103,21 @@ namespace ExpenseTracker.Views.Transaction
                     TransactionData.IsRecurring = true;
                     TransactionData.RecurringUntil = dtpUntillThisDate.Value;
                 }
-                rowAccount.Balance = TransactionData.AccountBalance;
-                this.dbInfo.FinancialAccount.AcceptChanges();
-                this.Hide();
+                
+                if (TransactionData.AccountBalance < 0)
+                {
+                    TransactionData = null;
+                    MessageBox.Show(Properties.Resources.TXN_ERR,
+                    Properties.Resources.TNX_NA,
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (TransactionData.AccountBalance > 0)
+                {
+                    rowAccount.Balance = TransactionData.AccountBalance;
+                    this.dbInfo.FinancialAccount.AcceptChanges();
+                    this.Hide();
+                }
+                
             }
         }
       

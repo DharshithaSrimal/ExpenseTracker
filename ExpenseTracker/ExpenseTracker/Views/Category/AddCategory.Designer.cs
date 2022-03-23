@@ -75,6 +75,9 @@
             // 
             this.cboxType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxType.FormattingEnabled = true;
+            this.cboxType.Items.AddRange(new object[] {
+            resources.GetString("cboxType.Items"),
+            resources.GetString("cboxType.Items1")});
             resources.ApplyResources(this.cboxType, "cboxType");
             this.cboxType.Name = "cboxType";
             // 

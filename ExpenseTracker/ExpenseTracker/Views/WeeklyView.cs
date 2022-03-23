@@ -61,9 +61,29 @@ namespace ExpenseTracker.Views
         }
         public List<ExpenseTrackerDataSet.TransactionRow> GetExpensesOn(DateTime date)
         {
-            return dbInfo.Transaction.Where(t => t.Type == "Expense" &&
+            String transactionType = null; ;
+            if(cboxType.SelectedIndex == 0)
+            {
+                transactionType = "Income";
+            }
+            else if(cboxType.SelectedIndex == 1)
+            {
+                transactionType = "Expense";
+            }
+            return dbInfo.Transaction.Where(t => t.Type == transactionType &&
             t.DateTime.Year == date.Year && t.DateTime.Month == date.Month && t.DateTime.Day == date.Day).ToList();
         }
 
+        private void weeklyViewOnLoad(object sender, EventArgs e)
+        {
+            cboxType.SelectedIndex = 0;
+        }
+
+        private void typeChanged(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            this.Controls.Add(gboxWeekOptions);
+            SetUpViewData();
+        }
     }
 }

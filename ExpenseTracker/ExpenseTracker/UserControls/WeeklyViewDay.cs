@@ -33,7 +33,7 @@ namespace ExpenseTracker.CustomControls
                 ySpacer += dayItem.Height + 3;
             }
 
-            //lblDayTotalExpense.Text = Common.GetFormattedCurrency(_transactions.Sum(t => t.Amount));
+            lblDayTotalExpense.Text = "Rs." + _transactions.Sum(t => t.Amount).ToString();
         }
 
     }

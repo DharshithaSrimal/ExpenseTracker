@@ -55,8 +55,6 @@ namespace ExpenseTracker.Views.Category
         private void SetUpViewData()
         {
             tboxName.TextChanged += TboxName_TextChanged;
-            cboxType.Items.Insert(0, "Income");
-            cboxType.Items.Insert(1, "Expense");
             cboxType.SelectedIndex = 0;
         }
 

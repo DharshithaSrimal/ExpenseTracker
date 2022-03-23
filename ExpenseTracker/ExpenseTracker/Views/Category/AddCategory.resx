@@ -258,6 +258,12 @@
   <data name="&gt;&gt;tboxName.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="cboxType.Items" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="cboxType.Items1" xml:space="preserve">
+    <value>Expense</value>
+  </data>
   <data name="cboxType.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 106</value>
   </data>

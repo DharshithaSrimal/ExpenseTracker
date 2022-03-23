@@ -38,6 +38,9 @@ namespace ExpenseTracker.Views
             this.tsmiFinancialAccounts = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFAccountsAddNew = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFAccountsView = new System.Windows.Forms.ToolStripMenuItem();
+            this.predctionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dailyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statiticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblProductName = new System.Windows.Forms.Label();
             this.btnNewRecord = new System.Windows.Forms.Button();
             this.btnTransferFunds = new System.Windows.Forms.Button();
@@ -67,7 +70,8 @@ namespace ExpenseTracker.Views
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiCategories,
-            this.tsmiFinancialAccounts});
+            this.tsmiFinancialAccounts,
+            this.predctionsToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -110,6 +114,26 @@ namespace ExpenseTracker.Views
             this.tsmiFAccountsView.Name = "tsmiFAccountsView";
             resources.ApplyResources(this.tsmiFAccountsView, "tsmiFAccountsView");
             this.tsmiFAccountsView.Click += new System.EventHandler(this.viewFinancialAccountsClick);
+            // 
+            // predctionsToolStripMenuItem
+            // 
+            this.predctionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dailyToolStripMenuItem,
+            this.statiticsToolStripMenuItem});
+            this.predctionsToolStripMenuItem.Name = "predctionsToolStripMenuItem";
+            resources.ApplyResources(this.predctionsToolStripMenuItem, "predctionsToolStripMenuItem");
+            // 
+            // dailyToolStripMenuItem
+            // 
+            this.dailyToolStripMenuItem.Name = "dailyToolStripMenuItem";
+            resources.ApplyResources(this.dailyToolStripMenuItem, "dailyToolStripMenuItem");
+            this.dailyToolStripMenuItem.Click += new System.EventHandler(this.dailyToolStripMenuItem_Click);
+            // 
+            // statiticsToolStripMenuItem
+            // 
+            this.statiticsToolStripMenuItem.Name = "statiticsToolStripMenuItem";
+            resources.ApplyResources(this.statiticsToolStripMenuItem, "statiticsToolStripMenuItem");
+            this.statiticsToolStripMenuItem.Click += new System.EventHandler(this.statiticsToolStripMenuItem_Click);
             // 
             // lblProductName
             // 
@@ -265,5 +289,8 @@ namespace ExpenseTracker.Views
         private System.Windows.Forms.Button btnReportView;
         private System.Windows.Forms.DataGridView dgvTransactions;
         private System.Windows.Forms.Button btnShowTransactions;
+        private System.Windows.Forms.ToolStripMenuItem predctionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dailyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem statiticsToolStripMenuItem;
     }
 }

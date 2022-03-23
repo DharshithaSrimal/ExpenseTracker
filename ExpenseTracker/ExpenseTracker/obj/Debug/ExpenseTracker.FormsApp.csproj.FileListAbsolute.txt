@@ -120,3 +120,5 @@ C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\Expense
 C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.FormsApp.csproj.CopyComplete
 C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.exe
 C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Predections.CategoryBasedPredection.resources
+C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Views.Predections.StatisticsView.resources

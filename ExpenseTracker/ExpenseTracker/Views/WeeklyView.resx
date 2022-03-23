@@ -117,6 +117,78 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="cboxType.Items" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="cboxType.Items1" xml:space="preserve">
+    <value>Expense</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboxType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 20</value>
+  </data>
+  <data name="cboxType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboxType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboxType.Name" xml:space="preserve">
+    <value>cboxType</value>
+  </data>
+  <data name="&gt;&gt;cboxType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxType.Parent" xml:space="preserve">
+    <value>gboxWeekOptions</value>
+  </data>
+  <data name="&gt;&gt;cboxType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gboxWeekOptions</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpWeekEndingDate.CustomFormat" xml:space="preserve">
+    <value>dd MMM yyyy</value>
+  </data>
+  <data name="dtpWeekEndingDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 23</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dtpWeekEndingDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dtpWeekEndingDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="dtpWeekEndingDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;dtpWeekEndingDate.Name" xml:space="preserve">
     <value>dtpWeekEndingDate</value>
   </data>
@@ -127,7 +199,25 @@
     <value>gboxWeekOptions</value>
   </data>
   <data name="&gt;&gt;dtpWeekEndingDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSelectDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSelectDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 28</value>
+  </data>
+  <data name="lblSelectDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblSelectDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 16</value>
+  </data>
+  <data name="lblSelectDate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="lblSelectDate.Text" xml:space="preserve">
+    <value>Select week ending date</value>
   </data>
   <data name="&gt;&gt;lblSelectDate.Name" xml:space="preserve">
     <value>lblSelectDate</value>
@@ -139,16 +229,20 @@
     <value>gboxWeekOptions</value>
   </data>
   <data name="&gt;&gt;lblSelectDate.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="gboxWeekOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 5</value>
+    <value>13, 6</value>
+  </data>
+  <data name="gboxWeekOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gboxWeekOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="gboxWeekOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 54</value>
+    <value>623, 66</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="gboxWeekOptions.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -167,67 +261,18 @@
   <data name="&gt;&gt;gboxWeekOptions.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="dtpWeekEndingDate.CustomFormat" xml:space="preserve">
-    <value>dd MMM yyyy</value>
-  </data>
-  <data name="dtpWeekEndingDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 19</value>
-  </data>
-  <data name="dtpWeekEndingDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 20</value>
-  </data>
-  <data name="dtpWeekEndingDate.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;dtpWeekEndingDate.Name" xml:space="preserve">
-    <value>dtpWeekEndingDate</value>
-  </data>
-  <data name="&gt;&gt;dtpWeekEndingDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dtpWeekEndingDate.Parent" xml:space="preserve">
-    <value>gboxWeekOptions</value>
-  </data>
-  <data name="&gt;&gt;dtpWeekEndingDate.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblSelectDate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSelectDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 23</value>
-  </data>
-  <data name="lblSelectDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 13</value>
-  </data>
-  <data name="lblSelectDate.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSelectDate.Text" xml:space="preserve">
-    <value>Select week ending date</value>
-  </data>
-  <data name="&gt;&gt;lblSelectDate.Name" xml:space="preserve">
-    <value>lblSelectDate</value>
-  </data>
-  <data name="&gt;&gt;lblSelectDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSelectDate.Parent" xml:space="preserve">
-    <value>gboxWeekOptions</value>
-  </data>
-  <data name="&gt;&gt;lblSelectDate.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1106, 450</value>
+    <value>1475, 554</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
   </data>
