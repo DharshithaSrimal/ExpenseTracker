@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\acprlk\Google Drive\ASE\Enterprise Development\CW2\ExpenseTracker\ExpenseTracker.DataAccess\ExpenseTrackerModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Admin\Documents\Projects\UOW\Enterprise Application Development\ExpenseTracker\ExpenseTracker.DataAccess\ExpenseTrackerModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

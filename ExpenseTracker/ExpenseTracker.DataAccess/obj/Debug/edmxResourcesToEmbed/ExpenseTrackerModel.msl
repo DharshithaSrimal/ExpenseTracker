@@ -21,20 +21,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Events">
-      <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Event)">
-        <MappingFragment StoreEntitySet="Events">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Location" ColumnName="Location" />
-          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
-          <ScalarProperty Name="RecurFrequency" ColumnName="RecurFrequency" />
-          <ScalarProperty Name="Occurrences" ColumnName="Occurrences" />
-          <ScalarProperty Name="UntillWhen" ColumnName="UntillWhen" />
-          <ScalarProperty Name="LastProcessed" ColumnName="LastProcessed" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Payees">
       <EntityTypeMapping TypeName="IsTypeOf(ExpenseTrackerModel.Payee)">
         <MappingFragment StoreEntitySet="Payees">
@@ -90,15 +76,6 @@
         <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
       <Condition ColumnName="Payee_Id" IsNull="false" />
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="EventTransaction" TypeName="ExpenseTrackerModel.EventTransaction" StoreEntitySet="Transactions">
-      <EndProperty Name="Event">
-        <ScalarProperty Name="Id" ColumnName="Event_Id" />
-      </EndProperty>
-      <EndProperty Name="Transaction">
-        <ScalarProperty Name="Id" ColumnName="Id" />
-      </EndProperty>
-      <Condition ColumnName="Event_Id" IsNull="false" />
     </AssociationSetMapping>
     <AssociationSetMapping Name="FinancialAccountTransfer" TypeName="ExpenseTrackerModel.FinancialAccountTransfer" StoreEntitySet="Transfers">
       <EndProperty Name="FinancialAccount">

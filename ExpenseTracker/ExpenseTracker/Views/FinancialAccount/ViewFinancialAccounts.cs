@@ -13,17 +13,18 @@ namespace ExpenseTracker.Views.FinancialAccount
 {
     public partial class ViewFinancialAccounts : Form
     {
-        private ExpenseTrackerDataSet dbInfo = new ExpenseTrackerDataSet();
+        private ExpenseTrackerDataSet dbInfo;
         public ExpenseTrackerDataSet.FinancialAccountDataTable FinancialAccountList { get; set; }
-        public ViewFinancialAccounts()
+        public ViewFinancialAccounts(ExpenseTrackerDataSet dbInfo)
         {
+            this.dbInfo = dbInfo;
             InitializeComponent();
         }
 
         private void viewFinancialAccountsLoad(object sender, EventArgs e)
         {
             this.dgvFinancialAccounts.DataSource = FinancialAccountList;
-            this.dgvFinancialAccounts.Columns["Id"].Visible = false;
+            this.dgvFinancialAccounts.Columns["Id"].ReadOnly = true;
             this.dgvFinancialAccounts.Columns["Balance"].ReadOnly = true;
         }
 

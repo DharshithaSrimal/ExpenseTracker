@@ -79,9 +79,6 @@ namespace ExpenseTracker.Views.Predections
                 lblExpLeast.Text = "Rs." + expenseLeastCat.Total.ToString();
             }
             lblBalance.Text = source.ToList()[0].Balance.ToString();
-            //var incomeCat = source.GroupBy(Tr => Tr.Type).Select(Group => new { Group.Key, Total = Group.Sum(Tr => Tr.Amount) });
-            //var income = this.dbInfo.Transaction.AsEnumerable().GroupBy(Tr => Tr.Type).Select(Group => new { Group.Key, Total = Group.Sum(Tr => Tr.Amount) });
-            //income = income.Where(x => x. == (cboxSelectedAccount.SelectedIndex + 1) && x.Type == cboxType.Text);
         }
     }
 }

@@ -19,5 +19,6 @@ namespace ExpenseTracker.DataAccess.DataObjects
         public DateTime RecurringUntil { get; set; }
         public int recurringTrs { get; set; }
         public decimal AccountBalance  {get; set; }
-}
+
+    }
 }

@@ -23,6 +23,5 @@ namespace ExpenseTracker.DataAccess
         public virtual Category Category { get; set; }
         public virtual FinancialAccount FinancialAccount { get; set; }
         public virtual Payee Payee { get; set; }
-        public virtual Event Event { get; set; }
     }
 }

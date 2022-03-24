@@ -60,7 +60,7 @@
             this.btnLoadGraph.Name = "btnLoadGraph";
             this.btnLoadGraph.Size = new System.Drawing.Size(187, 23);
             this.btnLoadGraph.TabIndex = 1;
-            this.btnLoadGraph.Text = "Load Graph";
+            this.btnLoadGraph.Text = "View";
             this.btnLoadGraph.UseVisualStyleBackColor = true;
             this.btnLoadGraph.Click += new System.EventHandler(this.btnLoadGraphClick);
             // 

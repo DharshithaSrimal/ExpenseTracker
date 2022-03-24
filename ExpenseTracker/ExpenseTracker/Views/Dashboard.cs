@@ -30,14 +30,14 @@ namespace ExpenseTracker.Views
 
         private void btnReportView_Click(object sender, EventArgs e)
         {
-            Report report = new Report(dbInfo);
+            Report report = new Report(this.dbInfo);
             report.ShowDialog();
             report.Dispose();
         }
 
         private void btnWeeklyView_Click(object sender, EventArgs e)
         {
-            WeeklyView weeklyView = new WeeklyView(dbInfo);
+            WeeklyView weeklyView = new WeeklyView(this.dbInfo);
             weeklyView.ShowDialog();
             weeklyView.Dispose();
         }
@@ -130,14 +130,14 @@ namespace ExpenseTracker.Views
 
         private void viewCategoriesClick(object sender, EventArgs e)
         {
-            ViewCategories viewCategories = new ViewCategories();
+            ViewCategories viewCategories = new ViewCategories(dbInfo);
             viewCategories.CategoryList = this.dbInfo.Category;
             viewCategories.ShowDialog();
             viewCategories.Dispose();
         }
         private void viewFinancialAccountsClick(object sender, EventArgs e)
         {
-            ViewFinancialAccounts viewFinancialAccount = new ViewFinancialAccounts();
+            ViewFinancialAccounts viewFinancialAccount = new ViewFinancialAccounts(this.dbInfo);
             viewFinancialAccount.FinancialAccountList  = this.dbInfo.FinancialAccount;
             viewFinancialAccount.ShowDialog();
         }
@@ -178,16 +178,17 @@ namespace ExpenseTracker.Views
                             Transaction.Id,
                             Transaction.Amount,
                             Transaction.Note,
-                            Category.Name,
+                            Category = Category.Name,
                             Transaction.DateTime,
                             Transaction.Type,
-                            Transaction.IsRecurring,
+                            Recurring = Transaction.IsRecurring,
                             Transaction.RecurringUnitl,
-                            Transaction.FinancialAccount_Id
+                            Transaction.FinancialAccount_Id,
+                            AccountName = FinancialAccount.Name 
                         }).ToList();
-            this.dgvTransactions.DataSource = data;
-            
+          
             this.dgvTransactions.DataSource = data.Where(filter => filter.FinancialAccount_Id == cboxSelectedAccount.SelectedIndex + 1).ToList();
+            this.dgvTransactions.Columns["FinancialAccount_Id"].Visible = false;
         }
 
         private void updateTransactionClick(object sender, EventArgs e)
@@ -219,7 +220,7 @@ namespace ExpenseTracker.Views
 
         private void btnViewAllTransactionClick(object sender, EventArgs e)
         {
-            ViewTransactions viewTransactions = new ViewTransactions(dbInfo);
+            ViewTransactions viewTransactions = new ViewTransactions(this.dbInfo);
             viewTransactions.TransactionList = this.dbInfo.Transaction;
             viewTransactions.ShowDialog();
             viewTransactions.Dispose();
@@ -227,25 +228,47 @@ namespace ExpenseTracker.Views
 
         public void initialDataSetup() 
         {
+            //Categories
             ExpenseTrackerDataSet.CategoryRow rowCategory1 = this.dbInfo.Category.NewCategoryRow();
             rowCategory1.Name = "Sales Income";
             rowCategory1.Id = 1;
-            rowCategory1.Type = "Income";
+            rowCategory1.Type = Properties.Resources.INCOME_TYPE;
             this.dbInfo.Category.AddCategoryRow(rowCategory1);
 
             ExpenseTrackerDataSet.CategoryRow rowCategory2 = this.dbInfo.Category.NewCategoryRow();
-            rowCategory2.Name = "Food";
+            rowCategory2.Name = "Freelance";
             rowCategory2.Id = 2;
-            rowCategory2.Type = "Expense";
+            rowCategory2.Type = Properties.Resources.INCOME_TYPE;
             this.dbInfo.Category.AddCategoryRow(rowCategory2);
 
-            ExpenseTrackerDataSet.FinancialAccountRow rowAccount = this.dbInfo.FinancialAccount.NewFinancialAccountRow();
-            rowAccount.Name = "Personal";
-            rowAccount.Id = 1;
-            rowAccount.Color = "Color [Transparent]";
-            rowAccount.Balance = 9000;
-            this.dbInfo.FinancialAccount.AddFinancialAccountRow(rowAccount);
+            ExpenseTrackerDataSet.CategoryRow rowCategory3 = this.dbInfo.Category.NewCategoryRow();
+            rowCategory3.Name = "Food";
+            rowCategory3.Id = 3;
+            rowCategory3.Type = Properties.Resources.EXPENSE_TYPE;
+            this.dbInfo.Category.AddCategoryRow(rowCategory3);
 
+            ExpenseTrackerDataSet.CategoryRow rowCategory4 = this.dbInfo.Category.NewCategoryRow();
+            rowCategory4.Name = "Travel";
+            rowCategory4.Id = 4;
+            rowCategory4.Type = Properties.Resources.EXPENSE_TYPE;
+            this.dbInfo.Category.AddCategoryRow(rowCategory4);
+
+            //Financial accounts
+            ExpenseTrackerDataSet.FinancialAccountRow rowAccount1 = this.dbInfo.FinancialAccount.NewFinancialAccountRow();
+            rowAccount1.Name = "Personal";
+            rowAccount1.Id = 1;
+            rowAccount1.Color = "Color [Transparent]";
+            rowAccount1.Balance = 9000;
+            this.dbInfo.FinancialAccount.AddFinancialAccountRow(rowAccount1);
+
+            ExpenseTrackerDataSet.FinancialAccountRow rowAccount2 = this.dbInfo.FinancialAccount.NewFinancialAccountRow();
+            rowAccount2.Name = "Business";
+            rowAccount2.Id = 2;
+            rowAccount2.Color = "Color [Transparent]";
+            rowAccount2.Balance = 0;
+            this.dbInfo.FinancialAccount.AddFinancialAccountRow(rowAccount2);
+
+            //Transactions
             ExpenseTrackerDataSet.TransactionRow rowT1 = this.dbInfo.Transaction.NewTransactionRow();
             rowT1.Id = 1;
             rowT1.Amount = 10000;
@@ -262,7 +285,7 @@ namespace ExpenseTracker.Views
             rowT2.Id = 2;
             rowT2.Amount = 500;
             rowT2.Note = "Eating out";
-            rowT2.Category_Id = 2;
+            rowT2.Category_Id = 3;
             rowT2.FinancialAccount_Id = 1;
             rowT2.DateTime = DateTime.Now.AddDays(-1);
             rowT2.Type = "Expense";
@@ -274,7 +297,7 @@ namespace ExpenseTracker.Views
             rowT3.Id = 3;
             rowT3.Amount = 300;
             rowT3.Note = "Lunch";
-            rowT3.Category_Id = 2;
+            rowT3.Category_Id = 3;
             rowT3.FinancialAccount_Id = 1;
             rowT3.DateTime = DateTime.Now.AddDays(-1);
             rowT3.Type = "Expense";
@@ -286,25 +309,37 @@ namespace ExpenseTracker.Views
             rowT4.Id = 4;
             rowT4.Amount = 200;
             rowT4.Note = "Uber eats - Dinner";
-            rowT4.Category_Id = 2;
+            rowT4.Category_Id = 3;
             rowT4.FinancialAccount_Id = 1;
             rowT4.DateTime = DateTime.Now.AddDays(-2);
             rowT4.Type = "Expense";
             rowT4.IsRecurring = false;
             rowT4.RecurringUnitl = DateTime.Now.AddDays(-2);
             this.dbInfo.Transaction.AddTransactionRow(rowT4);
+
+            ExpenseTrackerDataSet.TransactionRow rowT5 = this.dbInfo.Transaction.NewTransactionRow();
+            rowT5.Id = 5;
+            rowT5.Amount = 250;
+            rowT5.Note = "Travel to Colombo";
+            rowT5.Category_Id = 4;
+            rowT5.FinancialAccount_Id = 1;
+            rowT5.DateTime = DateTime.Now.AddDays(-3);
+            rowT5.Type = "Expense";
+            rowT5.IsRecurring = false;
+            rowT5.RecurringUnitl = DateTime.Now.AddDays(-3);
+            this.dbInfo.Transaction.AddTransactionRow(rowT5);
         }
 
         private void dailyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CategoryBasedPredection predectionView = new CategoryBasedPredection(dbInfo);
+            CategoryBasedPredection predectionView = new CategoryBasedPredection(this.dbInfo);
             predectionView.ShowDialog();
             predectionView.Dispose();
         }
 
         private void statiticsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            StatisticsView statView = new StatisticsView(dbInfo);
+            StatisticsView statView = new StatisticsView(this.dbInfo);
             statView.ShowDialog();
             statView.Dispose();
         }

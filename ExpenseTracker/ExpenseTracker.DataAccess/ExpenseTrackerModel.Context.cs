@@ -27,7 +27,6 @@ namespace ExpenseTracker.DataAccess
     
         public virtual DbSet<Transaction> Transactions { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Event> Events { get; set; }
         public virtual DbSet<Payee> Payees { get; set; }
         public virtual DbSet<FinancialAccount> FinancialAccounts { get; set; }
         public virtual DbSet<Transfer> Transfers { get; set; }

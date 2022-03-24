@@ -71,13 +71,9 @@
     <Compile Include="CategoryType.cs">
       <DependentUpon>ExpenseTrackerModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataManager.cs" />
     <Compile Include="DataObjects\CategoryInfo.cs" />
     <Compile Include="DataObjects\FinancialAccountInfo.cs" />
     <Compile Include="DataObjects\TransactionInfo.cs" />
-    <Compile Include="Event.cs">
-      <DependentUpon>ExpenseTrackerModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="ExpenseTrackerDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,7 +97,6 @@
     <Compile Include="FinancialAccount.cs">
       <DependentUpon>ExpenseTrackerModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\CategoryModel.cs" />
     <Compile Include="Payee.cs">
       <DependentUpon>ExpenseTrackerModel.tt</DependentUpon>
     </Compile>
@@ -148,7 +143,6 @@
       <LastGenOutput>ExpenseTrackerModel.Context.cs</LastGenOutput>
       <DependentUpon>ExpenseTrackerModel.edmx</DependentUpon>
     </Content>
-    <Content Include="ExpenseTrackerModel.edmx.sql" />
     <Content Include="ExpenseTrackerModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ExpenseTrackerModel.cs</LastGenOutput>

@@ -13,10 +13,11 @@ namespace ExpenseTracker.Views.Category
 {
     public partial class ViewCategories : Form
     {
-        private ExpenseTrackerDataSet dbInfo = new ExpenseTrackerDataSet();
+        private ExpenseTrackerDataSet dbInfo;
         public ExpenseTrackerDataSet.CategoryDataTable CategoryList { get; set; }
-        public ViewCategories()
+        public ViewCategories(ExpenseTrackerDataSet dbInfo)
         {
+            this.dbInfo = dbInfo;
             InitializeComponent();
         }
 
@@ -50,7 +51,7 @@ namespace ExpenseTracker.Views.Category
         private void categoriesViewLoad(object sender, EventArgs e)
         {
             this.dgvCategories.DataSource = CategoryList;
-            this.dgvCategories.Columns["Id"].Visible = false;
+            this.dgvCategories.Columns["Id"].ReadOnly = true;
         }
     }
 }

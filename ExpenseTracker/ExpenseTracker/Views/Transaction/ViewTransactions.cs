@@ -49,6 +49,7 @@ namespace ExpenseTracker.Views.Transaction
                         rowAccount.Balance = rowAccount.Balance + rowTransaction.Amount;
                     }
                     dgvTransactions.Rows.RemoveAt(this.dgvTransactions.SelectedRows[0].Index);
+
                     this.dbInfo.Transaction.AcceptChanges();
                     this.dbInfo.FinancialAccount.AcceptChanges();
                 }

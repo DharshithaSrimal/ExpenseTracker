@@ -3,7 +3,6 @@
   <EntityContainer Name="ExpenseTrackerModelStoreContainer">
     <EntitySet Name="Transactions" EntityType="ExpenseTrackerModel.Store.Transactions" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Categories" EntityType="ExpenseTrackerModel.Store.Categories" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Events" EntityType="ExpenseTrackerModel.Store.Events" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Payees" EntityType="ExpenseTrackerModel.Store.Payees" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="FinancialAccounts" EntityType="ExpenseTrackerModel.Store.FinancialAccounts" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Transfers" EntityType="ExpenseTrackerModel.Store.Transfers" store:Type="Tables" Schema="dbo" />
@@ -17,10 +16,6 @@
     </AssociationSet>
     <AssociationSet Name="PayeeTransaction" Association="ExpenseTrackerModel.Store.PayeeTransaction">
       <End Role="Payee" EntitySet="Payees" />
-      <End Role="Transaction" EntitySet="Transactions" />
-    </AssociationSet>
-    <AssociationSet Name="EventTransaction" Association="ExpenseTrackerModel.Store.EventTransaction">
-      <End Role="Event" EntitySet="Events" />
       <End Role="Transaction" EntitySet="Transactions" />
     </AssociationSet>
     <AssociationSet Name="FinancialAccountTransfer" Association="ExpenseTrackerModel.Store.FinancialAccountTransfer">
@@ -53,19 +48,6 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Type" Type="int" Nullable="false" />
-  </EntityType>
-  <EntityType Name="Events">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="Location" Type="nvarchar(max)" Nullable="true" />
-    <Property Name="DateTime" Type="datetime" Nullable="false" />
-    <Property Name="RecurFrequency" Type="int" Nullable="true" />
-    <Property Name="Occurrences" Type="int" Nullable="true" />
-    <Property Name="UntillWhen" Type="datetime" Nullable="true" />
-    <Property Name="LastProcessed" Type="datetime" Nullable="false" />
   </EntityType>
   <EntityType Name="Payees">
     <Key>
@@ -130,18 +112,6 @@
       </Principal>
       <Dependent Role="Transaction">
         <PropertyRef Name="Payee_Id" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="EventTransaction">
-    <End Role="Event" Type="ExpenseTrackerModel.Store.Events" Multiplicity="0..1" />
-    <End Role="Transaction" Type="ExpenseTrackerModel.Store.Transactions" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Event">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Transaction">
-        <PropertyRef Name="Event_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
